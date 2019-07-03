@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         button=findViewById(R.id.button);
         button1=findViewById(R.id.button1);
         recyclerView=findViewById(R.id.recycler_view);
-        ClingManager.getInstance().startClingService();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
