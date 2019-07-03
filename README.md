@@ -1,10 +1,10 @@
 # **视频投屏，支持网络投屏和本地投屏**
 ## **android Dlna开发**
-
+[![](https://www.jitpack.io/v/hiliving/VideoDlnaScreen.svg)](https://www.jitpack.io/#hiliving/VideoDlnaScreen)
 [GitHub主页](https://github.com/yanbo469/VideoDlnaScreen)
 
 
-## 集成方式
+## 集成方式 
 
 ### 添加依赖
 
@@ -34,10 +34,8 @@ android  {
 
   }
 dependencies {
-
-       compileOnly 'javax.enterprise:cdi-api:2.0'
-       implementation 'com.github.yanbo469:VideoDlnaScreen:v1.0'
-}
+	        implementation 'com.github.hiliving:VideoDlnaScreen:1.2.0'
+	}
 
 ```
 
