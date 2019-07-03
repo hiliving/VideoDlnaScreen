@@ -11,8 +11,9 @@ public class VApplication {
     public static Context getContext() {
         return mcontext;
     }
-    public static void init(Context context) {
+    public static void init(Context context,int port) {
         mcontext=context;
+        VConstants.JETTY_SERVER_PORT = port;
 //        ClingManager.getInstance().startClingService();
     }
 }

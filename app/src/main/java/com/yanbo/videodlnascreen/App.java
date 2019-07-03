@@ -17,7 +17,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        VApplication.init(this);
+        VApplication.init(this,55678);
         context = this;
     }
 
